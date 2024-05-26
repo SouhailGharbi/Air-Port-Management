@@ -1,0 +1,11 @@
+﻿@model AM.ApplicationCore.domain.Flight
+<div>
+    <dl class="row">
+        <dt>nombre de passagers</dt>
+        <dl>@Model.ListTicket.Count()</dl>
+        <dt>Type Avion</dt>
+        <dl>@Model.MyPlane.PlaneType</dl>
+        <dt>Capacity Avion</dt>
+        <dl>@Model.MyPlane.Capacity</dl>
+    </dl>
+</div>
